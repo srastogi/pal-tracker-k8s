@@ -6,3 +6,5 @@ metadata:
     app: pal-tracker
 data:
   welcome.message: "hello from kubernetes"
+  web.exposure: "*"
+  health.showdetails: "always"

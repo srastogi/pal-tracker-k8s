@@ -38,3 +38,13 @@ spec:
                 configMapKeyRef:
                   name: pal-tracker
                   key: welcome.message
+            - name: MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE
+              valueFrom:
+                configMapKeyRef:
+                  name: pal-tracker
+                  key: web.exposure
+            - name: MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS
+              valueFrom:
+                configMapKeyRef:
+                  name: pal-tracker
+                  key: health.showdetails
